@@ -1,10 +1,5 @@
-// vite.config.js
 import { defineConfig } from 'vite';
 
 export default defineConfig({
-  build: {
-    rollupOptions: {
-      external: ['style.css']
-    }
-  }
+  // No need to touch rollupOptions or external
 });
